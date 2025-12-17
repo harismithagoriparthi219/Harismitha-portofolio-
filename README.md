@@ -131,64 +131,7 @@
   faders.forEach(fade => observer.observe(fade));
 </script>
 
-</body>
-</html>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f4f6f8;
-  color: #333;
-}
-
-.hero {
-  background: #1f2933;
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.sub {
-  font-size: 14px;
-  opacity: 0.9;
-}
-
-.buttons a {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background: #2563eb;
-  color: white;
-  text-decoration: none;
-  border-radius: 25px;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.buttons a:hover {
-  transform: scale(1.1);
-  background: #1e40af;
-}
-
-section {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-h2 {
-  border-left: 5px solid #2563eb;
-  padding-left: 10px;
-  margin-bottom: 25px;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
+</
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
@@ -206,23 +149,4 @@ h2 {
 }
 
 .skills span:hover {
-  transform: scale(1.1);
-}
-
-.fade-in {
-  opacity: 0;
-  transform: translateY(30px);
-}
-
-.fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
-  transition: 1s ease;
-}
-
-footer {
-  text-align: center;
-  background: #1f2933;
-  color: white;
-  padding: 15px;
-}
+  transform: scale(1.⁷1
