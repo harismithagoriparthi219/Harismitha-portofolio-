@@ -118,35 +118,3 @@
   <p>© 2025 Harismitha Devi | Portfolio</p>
 </footer>
 
-<script>
-  const faders = document.querySelectorAll('.fade-in');
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  }, { threshold: 0.2 });
-
-  faders.forEach(fade => observer.observe(fade));
-</script>
-
-</
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-}
-
-.skills span {
-  display: inline-block;
-  background: #2563eb;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 20px;
-  margin: 5px;
-  font-size: 14px;
-  transition: transform 0.3s ease;
-}
-
-.skills span:hover {
-  transform: scale(1.⁷1
